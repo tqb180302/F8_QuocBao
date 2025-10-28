@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+    <label for="user">User</label>
+    <input id="user" placeholder="User" value="test@gmail.com" name="name"><br>
+    <label for="password">Password</label>
+    <input id="password" placeholder="Password" type="password" name="pass"><br>
+    <label for="age">Age</label>
+    <input id="age" type="number" placeholder="Age" min="1" name="age"><br>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="Email" name="email">
+
+
+    <span>Ban thich gi </span>
+    <br>
+    <label for="cake">Banh</label><input id="cake" type="checkbox" name="food[]" value="cake">
+    <label for="fruit">Trai Cay</label><input id="fruit" type="checkbox" name="food[]" value="fruit">
+    <label for="milk">Sua</label><input id="milk" type="checkbox" name="food[]" value="milk">
+    <br>
+
+
+    <span>Gioi Tinh</span>
+    <br>
+    <label>Nam</label><input type="radio" name="gender[]" value="men">
+    <label>Nu</label><input type="radio" name="gender[]" value="female">
+    <label>Khac</label><input type="radio" name="gender[]" value="other">
+    <br>
+
+
+    <span>Ba o dau</span>
+    <select name="adrress">
+        <option>Ha Noi</option>
+        <option>HCM</option>
+        <option>Da Nang</option>
+    </select>
+    <br>
+
+    <span>Ba lam nghe gi</span>
+    <select name="adrress">
+        <option value="IT">IT</option>
+        <option value="Doctor">Bac Si</option>
+        <option value="Teacher">Giao Vien</option>
+    </select>
+
+
+    <br>
+    <input type="submit">
+    <button>OK</button>
+
+    <br>
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+h1, p {
+    color: red;
+}
+
+h1 + p {
+    color: red;
+}
+
+input[name="name"] {
+    color: red;
+}
+input[name="mode"]:checked ~ p {
+    color: red;
+}
+
+#red:checked ~ p {
+    color: red;
+}
+#green:checked ~ p {
+    color: green;
+}
+#blue:checked ~ p {
+    color: blue;
+}

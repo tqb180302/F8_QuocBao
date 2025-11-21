@@ -1,0 +1,14 @@
+.box {
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /*opacity: 0;*/
+}
+
+span {
+    display: block;
+    border: 1px solid red;
+}
+div {
+    display: inline;
+    border: 1px solid blue;
+}
